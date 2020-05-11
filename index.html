@@ -26,7 +26,7 @@
   <meta name="googlebot" content="index, follow">
   <meta name="rating" content="General">    
   <meta name="keywords" content="call, videochamada, conferencia, reunião, reuniões, conference masters">    
-  <meta property="og:url" content=""> 
+  <meta property="og:url" content="https://conferencemasters.com.br"> 
   <meta property="og:title" content="Conference Masters">
   <meta property="og:locale" content="pt_BR">    
   <meta property="og:image" content="">
@@ -118,14 +118,26 @@
 
     <section id="form">
         <div>
-            <form action="">
-                <label for=""></label>
-                <input type="email" name="email" value="E-mail" placeholder="E-mail">
-                <input type="submit" value="Send">
-            </form>
+          <form method="POST" action="https://smtl.gama.academy/leads/db22b660-915e-11ea-9e98-2f3c29e0891c">
+            <input
+              name="name"
+              type="text"
+              pattern="^\D{2,}\s[\D\s]{2,}$"
+              title="Digite seu nome completo"
+              required
+            />
+            <input
+              name="email"
+              type="email"
+              title="Digite um email válido"
+              required
+            />
+            <input name="redirectTo" type="hidden" value="https://gamaleao.github.io/conference-masters/thank-you.html" />
+            <input name="debugMode" type="hidden" value="true" />
+            <input type="submit" value="Send"/>
+          </form>
         </div>
     </section>
-
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/jquery-3.5.0.min.js"></script>
