@@ -4,11 +4,15 @@ body {
 }
 
 header {
-    margin-bottom: 60px;
+    margin-bottom: -40px;
 }
 
 header .container {
     text-align: center;
+    height: 100%;
+    width: 500px;
+    margin-top: -150px;
+    margin-bottom: 10px
 }
 
 section {
@@ -20,7 +24,7 @@ section {
     text-align: center;
     line-height: 10px;
     margin-bottom: 20px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 #button {
@@ -34,7 +38,14 @@ section .container {
     height: 100px;
 }
 
-#media {
+section #media {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#media iframe {
+    max-width: 560px;
     width: 100%;
 }
 
@@ -42,6 +53,7 @@ section .container {
     text-align: center;
     font-weight: bold;
     font-size: 15px;
+    margin-top: 350px;
 }
 
 #form {
