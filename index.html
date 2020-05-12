@@ -97,15 +97,28 @@
   <section id="form">
     <div class="form-text">
       <h2>Preencha os campos abaixo para receber gratuitamente nosso material:</h2>
-      <form action="">
+      <form method="POST" id="form1" action="https://smtl.gama.academy/leads/db22b660-915e-11ea-9e98-2f3c29e0891c">
         <div>
-          <input type="text" name="text" value="Nome" placeholder="Nome*" required>
+          <input
+            name="name"
+            type="text"
+            placeholder="Nome*" 
+            pattern="^\D{2,}\s[\D\s]{2,}$"
+            title="Digite seu nome completo"
+            required
+          />
         </div>
         <div>
-          <input type="email" name="email" value="E-mail" placeholder="E-mail*" required>
+          <input
+            name="email"
+            type="email"
+            placeholder="E-mail*"
+            title="Digite um email válido"
+            required
+          />
         </div>
-
-        <button>Baixe agora o checklist</button>
+        <button type="submit" form="form1" value="Submit">Baixe agora o checklist</button>
+        <input name="redirectTo" type="hidden" value="https://gamaleao.github.io/conference-masters/thank-you.html" />
       </form>
     </div>
   </section>
