@@ -22,6 +22,11 @@ header img {
     max-width: 80%;   
 }
 
+.quote {
+    margin-top: -20px;
+    margin-left: 5px;
+}
+
 .title {
     padding-right: 20px;
     width: 500px;
