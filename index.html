@@ -17,7 +17,7 @@
   <!--/ Analytics Tools -->
 
   <!-- META -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="description" content="Conference Masters Website Description">
@@ -47,6 +47,7 @@
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="assets/css/style.css"> 
   <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <!--/ Stylesheets-->
 
 </head>
@@ -58,13 +59,13 @@
     </div>
   </header>
 
-  <main id="title"> 
+  <main id="title" class="title"> 
     <div class="title-main">
       <h1>Checklist de 23 coisas para ter uma reunião perfeita</h1>
     </div>
   </main>
 
-  <section id="paragraph">
+  <section id="paragraph" class="paragraph">
     <div>
       <p class="blue">
         Acreditamos que quase ninguém gostaria de virar um meme ou um gif. 
@@ -112,19 +113,19 @@
           <input
             name="email"
             type="email"
-            placeholder="E-mail*"
+            placeholder="Email*"
             title="Digite um email válido"
             required
           />
         </div>
-        <button type="submit" form="form1" value="Submit">Baixe agora o checklist</button>
+        <button type="submit" form="form1" value="Submit"><img src="assets/images/icon-download.png">Baixe agora o checklist</button>
         <input name="redirectTo" type="hidden" value="https://gamaleao.github.io/conference-masters/thank-you.html" />
       </form>
     </div>
   </section>
 
   <section id="">
-    <div class="">
+    <div class="subtitle">
       <h3>Uma nova forma de trabalho</h3>
     </div>
 
@@ -141,38 +142,64 @@
 
   <section id="icon-wraper">
     <div class="wraper">
-      <p>Evite possíves gafes</p>
+      <div class="row">
+        <img src="assets/images/success-icon.png">
+        <p class="vantagens">Evite possíves gafes</p>
+      </div>
     </div>
 
     <div class="wraper">
-      <p>Tenha reuniões produtivas</p>
+      <div class="row">
+        <img src="assets/images/success-icon.png">
+        <p class="vantagens">Tenha reuniões produtivas</p>
+      </div>
     </div>
 
     <div class="wraper">
-      <p>Acerte na comunicação</p>
+      <div class="row">
+        <img src="assets/images/success-icon.png">
+        <p class="vantagens">Acerte na comunicação</p>
+      </div>
     </div>
 
     <div class="wraper">
-      <p>Vença nervosismo e a timidez</p>
+      <div class="row">
+        <img src="assets/images/success-icon.png">
+        <p class="vantagens">Vença nervosismo e a timidez</p>
+      </div>
     </div>
   </section>
 
   <!--Adicionar ícone acima-->
 
-  <section id="form-2">
+  <section id="form-2" class="form-2">
     <div class="form-text-2">
       <h2>Aproveita! Não vai ficar disponível por muito tempo.</h2>
-      <form action="" style="width: 88%;">
+      <form method="POST" id="form1" action="https://smtl.gama.academy/leads/db22b660-915e-11ea-9e98-2f3c29e0891c">
         <div>
-          <input type="text" name="text" value="Nome" placeholder="Nome*" required>
+          <input
+            name="name"
+            type="text"
+            placeholder="Nome*" 
+            pattern="^\D{2,}\s[\D\s]{2,}$"
+            title="Digite seu nome completo"
+            required
+          />
         </div>
         <div>
-          <input type="email" name="email" value="E-mail" placeholder="E-mail*" required>
+          <input
+            name="email"
+            type="email"
+            placeholder="Email*"
+            title="Digite um email válido"
+            required
+          />
         </div>
-
-        <button>Baixe agora o checklist</button>
+        <button type="submit" form="form1" value="Submit" class="button-form-2"><img src="assets/images/icon-download.png">Baixe agora o checklist</button>
+        <input name="redirectTo" type="hidden" value="https://gamaleao.github.io/conference-masters/thank-you.html" />
       </form>
     </div>
+    <div><img class="draw" src="assets/images/undraw-colab.png" alt=""></div>
   </section>
 
 
@@ -181,93 +208,9 @@
       <p>Conference Masters - Todos os direitos reservados</p>
     </div>
   </footer>
-  
-    
-    <!-- Se for imagem mesmo, com esse código abaixo talvez fique melhor
 
-    <header>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Imagem aqui/Texto aqui</h1>
-            </div>
-          </div>
-    </header>
-
-    -->
-
-    <!--<section id="text">
-        <div>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, tenetur!</h3>
-        </div>
-        <div>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, tenetur!</h3>
-        </div>
-        <div>
-            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, tenetur!</h3>
-        </div>
-    </section> -->
-
-    <!--<section id="button">
-        <div class="container">
-            <div class="row">
-              <div class="col">
-                <button type="button" class="btn btn-primary">Primary</button>
-              </div>
-              <div class="col">
-                <button type="button" class="btn btn-primary">Primary</button>
-              </div>
-            </div>
-          </div>
-    </section>-->
-
-    <!--<section id="media">
-      <div class="container">
-          <iframe width="600" height="400" src="https://www.youtube.com/embed/VwN9OzoK9o8" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </section>-->
-
-    <!-- Código de algum vídeo apenas para ver como fica pra testar
-
-    <section id="media">
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Vídeo aqui</h1>
-            </div>
-          </div>
-    </section>
-
-  -->
-    <!--<section id="paragraph">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing eli.</p>
-    </section>-->
-
-    <!--<section id="form">
-        <div>
-          <form method="POST" action="https://smtl.gama.academy/leads/db22b660-915e-11ea-9e98-2f3c29e0891c">
-            <input
-              name="name"
-              type="text"
-              pattern="^\D{2,}\s[\D\s]{2,}$"
-              title="Digite seu nome completo"
-              required
-            />
-            <br/><br/>
-            <input
-              name="email"
-              type="email"
-              title="Digite um email válido"
-              required
-            />
-            <input name="redirectTo" type="hidden" value="https://gamaleao.github.io/conference-masters/thank-you.html" />
-            <input name="debugMode" type="hidden" value="true" />
-            <input type="submit" value="Send"/>
-          </form>
-        </div>
-    </section>
-  -->
-
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/jquery-3.5.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery-3.5.0.min.js"></script>
 </body>
 </html>
 

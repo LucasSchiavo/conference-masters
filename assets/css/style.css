@@ -1,29 +1,39 @@
+@font-face {
+    font-family: 'Omnes';
+    src: url('../fonts/omnes.eot');
+    src: url('../fonts/omnes.woff') format('woff'),
+         url('../fonts/omnes.ttf')  format('truetype');
+}
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-}
-
-header {
-    margin-bottom: -40px;
 }
 
 header .container {
     text-align: center;
-    height: 100%;
     width: 500px;
-    margin-top: -190px;
-    
+    margin-top: -20vh;
 }
 
-#title {
+header img {
+    max-width: 80%;   
+}
+
+.title {
     padding-right: 20px;
     width: 500px;
     margin-left: 120px;
     margin-top: -110px;
     font-size: 42px;
-    font-family: 'Open-Sans', 'Omnes';
+}
+
+h1 {
+    font-family: 'Omnes';
+    font-weight: 600;
+    color: #1C234F;
+    line-height: 65px;
 }
 
 section {
@@ -32,12 +42,13 @@ section {
     margin-top: 15px;
 }
 
-#paragraph {
-    font-size: 15px;
+.paragraph {
+    font-size: 20px;
     width: 650px;
 }
 
 .blue {
+    font-family: 'Omnes';
     color: #3F51B5;
     margin-top: 30px;
     letter-spacing: 0.1em;
@@ -45,66 +56,79 @@ section {
 }
 
 .other-paragraphs {
-    margin-top: 30px;
-    margin-top: 50px;
-    letter-spacing: 0.1em;
-    width: 610px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 27px;
+    width: 580px;
+    color: #616161
 }
 
 #form {
     float: right;
-    margin-top: -430px;
+    margin-top: -73vh;
     box-shadow: -6px 3px 27px -12px rgba(0,0,0,0.75);
     width: 500px;
     padding: 30px 30px;
-    margin-right: 50px;
+    margin-right: 80px;
     border-radius: 15px;
-    font-family: 'Open-Sans', 'Omnes';
 }
 
-.form-text h2 {
+.form-text h2, .form-text-2 h2 {
     font-size: 20px;
+    color: #1C234F;
+    font-family: 'Open Sans';
     width: 90%;
-    line-height: 25px;
+    line-height: 33px;
     margin-bottom: 20px;
 }
 
 form input[type="text"],
-form input[type="email"]{
+form input[type="email"] {
     width: 90%;
+    height: 50px;
     margin-bottom: 15px;
     border-radius: 15px;
     padding: 5px;
     outline: 0;
+    background: #FFFFFF;
+    border: 1px solid #D4D8EB;
+    border-radius: 14px;
 }
 
 form button {
     background-color: #25CCF7;
     color: white;
     width: 90%;
-    border-radius: 15px;
+    border-radius: 44px;
     border: none;
-    height: 38px;
+    height: 56px;
     margin-top: 15px;
-    font-size: 18px;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: bold;
 }
 
+form button img { margin-right: 30px;}
+
 h3 {
+    font-family: 'Omnes';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 33px;
     margin-top: 70px;
-    margin-left: 390px;
+    margin-left: 65vh;
     width: 500px;
-    color: #3F51B5;
-    font-size: 26px;
-    font-family: 'Open-Sans', 'Omnes';
+    color: #1C234F;
 }
 
 .paragraph-2 {
     text-align: center;
     font-size: 16px;
-    font-family: 'Open-Sans', 'Omnes';
-    width: 470px;
-    margin-left: 300px;
+    width: 560px;
+    margin-left: 280px;
     margin-top: 20px;
+    font-family: Open Sans;
+    line-height: 27px;
 }
 
 #icon-wraper {
@@ -113,28 +137,49 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 430px;
+    margin-left: 400px;
 }
 
 .wraper {
     width: 50%;
     margin-bottom: 30px;
-    
 }
+
+.wraper p {
+    color: #1C234F;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.wraper img {
+    height: 10%;
+    width: 10%;
+} 
+
 
 #form-2 h2 {
     margin-top: 90px;
     font-size: 20px;
     width: 420px;
-    font-family: 'Open-Sans', 'Omnes';
 }
 
 #form-2 form {
     margin-top: 20px;
 }
 
+.draw {
+    position: absolute;
+    max-width: 50%;
+    left: 45vw;
+    top: 80vw;
+    height: auto;
+}
+
 footer {
     color: #3F51B5;
+    font-family: 'Open Sans';
+    font-size: 13px;
+    line-height: 23px;
     text-align: center;
     margin-top: 100px;
 }
@@ -144,7 +189,6 @@ footer {
     width: 500px;
     margin-left: 180px;
     margin-top: -110px;
-    font-family: 'Open-Sans', 'Omnes';
 }
 
 .title-main-ty h1 {
