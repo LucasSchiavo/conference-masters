@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 header {
@@ -19,7 +20,7 @@ header .container {
 #title {
     padding-right: 20px;
     width: 500px;
-    margin-left: 140px;
+    margin-left: 120px;
     margin-top: -110px;
     font-size: 42px;
     font-family: 'Open-Sans', 'Omnes';
@@ -27,12 +28,12 @@ header .container {
 
 section {
     width: 500px;
-    margin-left: 145px;
+    margin-left: 120px;
     margin-top: 15px;
 }
 
 #paragraph {
-    font-size: 16px;
+    font-size: 15px;
     width: 650px;
 }
 
@@ -40,22 +41,23 @@ section {
     color: #3F51B5;
     margin-top: 30px;
     letter-spacing: 0.1em;
-    width: 500px;
+    width: 520px;
 }
 
 .other-paragraphs {
     margin-top: 30px;
-    letter-spacing: 0.1em;
     margin-top: 50px;
+    letter-spacing: 0.1em;
+    width: 610px;
 }
 
 #form {
     float: right;
-    margin-top: -460px;
+    margin-top: -430px;
     box-shadow: -6px 3px 27px -12px rgba(0,0,0,0.75);
     width: 500px;
     padding: 30px 30px;
-    margin-right: 40px;
+    margin-right: 50px;
     border-radius: 15px;
     font-family: 'Open-Sans', 'Omnes';
 }
@@ -69,7 +71,7 @@ section {
 
 form input[type="text"],
 form input[type="email"]{
-    width: 80%;
+    width: 90%;
     margin-bottom: 15px;
     border-radius: 15px;
     padding: 5px;
@@ -79,11 +81,12 @@ form input[type="email"]{
 form button {
     background-color: #25CCF7;
     color: white;
-    width: 80%;
+    width: 90%;
     border-radius: 15px;
     border: none;
-    height: 35px;
+    height: 38px;
     margin-top: 15px;
+    font-size: 18px;
 }
 
 h3 {
@@ -117,4 +120,44 @@ h3 {
     width: 50%;
     margin-bottom: 30px;
     
+}
+
+#form-2 h2 {
+    margin-top: 90px;
+    font-size: 20px;
+    width: 420px;
+    font-family: 'Open-Sans', 'Omnes';
+}
+
+#form-2 form {
+    margin-top: 20px;
+}
+
+footer {
+    color: #3F51B5;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#title-ty {
+    padding-right: 20px;
+    width: 500px;
+    margin-left: 180px;
+    margin-top: -110px;
+    font-family: 'Open-Sans', 'Omnes';
+}
+
+.title-main-ty h1 {
+    font-size: 30px;
+}
+
+#paragraph-ty {
+    font-size: 20px;
+    width: 650px;
+    margin-left: 180px;
+    width: 400px
+}
+
+.other-paragraphs-ty p {
+    margin-top: 30px;
 }
