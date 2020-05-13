@@ -259,6 +259,7 @@ footer {
         padding-left: 100px;
         margin-left: 80px;
         margin-right: -5px;
+        width: 100%;
     }
 
     form {
@@ -312,11 +313,13 @@ footer {
         padding-left: 90px;
         margin-left:200px;
         margin-right: -2px;
+        width: 100%;
     }
 
     .paragraph-2 p  {
-        margin-right: 80px;
-        align-items: center;
+        margin-right: 100px;
+        width: 100%;
+        margin-left: -310px;
         
     }
 
@@ -332,6 +335,13 @@ footer {
  }
 
  @media (max-width: 580px) {
+
+    #title {
+        width: 80%;
+        margin-left: 150px;
+       
+    }
+
     img {
         display: flex;
         margin-left: 100px;
@@ -340,8 +350,9 @@ footer {
     #form {
         margin-top: 100px;
         padding-left: 90px;
-        margin-left:200px;
+        margin-left: 200px;
         margin-right: -2px;
+        width: 100%;
     }
 
     h1 {
@@ -374,9 +385,14 @@ footer {
 
     .paragraph-2 p  {
         margin-right: 100px;
-        align-items: center;
-        padding: 15px 2%;
-        text-align: center;
-        
+        width: 50%;
+        margin-left: -250px;
     }
+    
+    .wraper {
+        width: 50%;
+        margin-left: -370px;
+        position: relative;
+    }
+
  }
