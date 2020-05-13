@@ -298,6 +298,10 @@ footer {
     .wraper {
         display: none;
     }
+
+    .blue-success {
+        display: none
+    }
  }
 
  @media (max-width: 768px) {
@@ -341,6 +345,10 @@ footer {
 
     .wraper {
         display: none;
+    }
+
+    .blue-success {
+        display: none
     }
  }
 
@@ -401,6 +409,19 @@ footer {
     
     .wraper {
         display: none;
+    }
+
+    .blue-success {
+        display: none
+    }
+
+    #paragraph-ty {
+        width: 100%;
+        
+    }
+
+    .other-paragraphs-ty p {
+        display: flex;
     }
 
  }
