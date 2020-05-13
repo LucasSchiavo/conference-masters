@@ -233,3 +233,150 @@ footer {
 .other-paragraphs-ty p {
     margin-top: 30px;
 }
+
+
+@media(max-width: 992px) {
+
+    img {
+	    display: flex;
+        align-items: center;
+    }
+
+    h1 {
+        position: relative;
+        width: 100%;
+        
+    }
+
+    main {
+        text-align: center;
+        display: flex;
+        width: 100%;
+    }
+    
+    #form {
+        margin-top: 100px;
+        padding-left: 100px;
+        margin-left: 80px;
+        margin-right: -5px;
+    }
+
+    form {
+
+    }
+
+    button img {
+        display: none;
+    }
+
+    .home-office {
+        padding: 20px;
+    }
+
+    .subtitle h3 {
+        padding-top: 40px;
+        margin-top: 110px;
+        margin-right: 100px;
+        display: inline-block;
+        padding-right: 80x;
+        justify-content: space-between;
+        margin-left: 60px;
+    }
+
+    #paragraph-2 {
+        display: flex;
+        text-align: center;
+    }
+
+    .quote {
+        display: none;
+    }
+ }
+
+ @media (max-width: 768px) {
+    img {
+        display: flex;
+        margin-left: 100px;
+    }
+
+    button img {
+        display: none;
+    }
+
+    .quote {
+        display: none;
+    }
+
+    #form {
+        margin-top: 100px;
+        padding-left: 90px;
+        margin-left:200px;
+        margin-right: -2px;
+    }
+
+    .paragraph-2 p  {
+        margin-right: 80px;
+        align-items: center;
+        
+    }
+
+    .subtitle h3 {
+        padding-top: 40px;
+        margin-top: 110px;
+        margin-right: 100px;
+        display: inline-block;
+        padding-right: 80x;
+        justify-content: space-between;
+        margin-left: 60px;
+    }
+ }
+
+ @media (max-width: 580px) {
+    img {
+        display: flex;
+        margin-left: 100px;
+    }
+
+    #form {
+        margin-top: 100px;
+        padding-left: 90px;
+        margin-left:200px;
+        margin-right: -2px;
+    }
+
+    h1 {
+        position: relative;
+        width: 100%;
+        
+    }
+
+    #paragraph {
+        width: 50%;
+    }
+
+    .quote {
+        display: none;
+    }
+
+    button img {
+        display: none;
+    }
+
+    .subtitle h3 {
+        padding-top: 40px;
+        margin-top: 110px;
+        margin-right: 100px;
+        display: inline-block;
+        padding-right: 80x;
+        justify-content: space-between;
+        margin-left: 60px;
+    }
+
+    .paragraph-2 p  {
+        margin-right: 100px;
+        align-items: center;
+        padding: 15px 2%;
+        text-align: center;
+        
+    }
+ }
