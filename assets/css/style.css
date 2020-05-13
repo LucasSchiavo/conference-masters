@@ -256,10 +256,10 @@ footer {
     
     #form {
         margin-top: 100px;
-        padding-left: 100px;
-        margin-left: 80px;
-        margin-right: -5px;
-        width: 100%;
+        margin-right: 250px;
+        margin-left: 40px;
+        width: 50%;
+        padding: 20px 2%;
     }
 
     form {
@@ -284,12 +284,18 @@ footer {
         margin-left: 60px;
     }
 
-    #paragraph-2 {
-        display: flex;
-        text-align: center;
+    #paragraph-2 p{
+        align-items: center;
+        margin-right: 100px;
+        width: 100%;
+        
     }
 
     .quote {
+        display: none;
+    }
+
+    .wraper {
         display: none;
     }
  }
@@ -310,10 +316,10 @@ footer {
 
     #form {
         margin-top: 100px;
-        padding-left: 90px;
-        margin-left:200px;
-        margin-right: -2px;
-        width: 100%;
+        margin-right: 140px;
+        margin-left: 40px;
+        width: 50%;
+        padding: 20px 2%;
     }
 
     .paragraph-2 p  {
@@ -332,6 +338,10 @@ footer {
         justify-content: space-between;
         margin-left: 60px;
     }
+
+    .wraper {
+        display: none;
+    }
  }
 
  @media (max-width: 580px) {
@@ -349,10 +359,10 @@ footer {
 
     #form {
         margin-top: 100px;
-        padding-left: 90px;
-        margin-left: 200px;
-        margin-right: -2px;
-        width: 100%;
+        margin-right: 70px;
+        margin-left: 50px;
+        width: 50%;
+        padding: 20px 2%;
     }
 
     h1 {
@@ -390,9 +400,7 @@ footer {
     }
     
     .wraper {
-        width: 50%;
-        margin-left: -370px;
-        position: relative;
+        display: none;
     }
 
  }
