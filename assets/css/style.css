@@ -305,6 +305,14 @@ footer {
  }
 
  @media (max-width: 768px) {
+
+    #title {
+        width: 50%;
+        display: flex;
+        position: relative;
+        margin-left: 200px;
+    }
+
     img {
         display: flex;
         margin-left: 100px;
@@ -312,6 +320,17 @@ footer {
 
     button img {
         display: none;
+    }
+
+    .blue {
+        width: 50%;
+        margin-left: 80px;
+        
+    }
+
+    .other-paragraphs {
+        width: 50%;
+        margin-left: 80px;
     }
 
     .quote {
