@@ -378,12 +378,12 @@ footer {
         width: 90%;
         display: flex;
         position: relative;
-        margin-left: 190px;
+        margin-left: 120px;
     }
 
     img {
         display: flex;
-        margin-left: 100px;
+        margin-left: 60px;
         
     }
 
@@ -404,13 +404,13 @@ footer {
 
     .blue {
         width: 50%;
-        margin-left: 80px;
+        margin-left: 15px;
         position: relative;
     }
 
     .other-paragraphs {
         width: 50%;
-        margin-left: 80px;
+        margin-left: 15px;
         position: relative;
     }
 
@@ -429,13 +429,13 @@ footer {
         display: inline-block;
         padding-right: 80x;
         justify-content: space-between;
-        margin-left: 80px;
+        margin-left: 15px;
     }
 
     .paragraph-2 p  {
         margin-right: 100px;
         width: 50%;
-        margin-left: -220px;
+        margin-left: -290px;
     }
     
     .wraper {
@@ -458,17 +458,26 @@ footer {
     #form-2 {
         margin-top: 100px;
         margin-right: 30px;
-        margin-left: 170px;
+        margin-left: 120px;
         width: 100%;
-        padding: 50px 4%;
+        padding: 20px 10%;
         align-items: center;
     }
 
-    footer {
-        width: 100%;
-        display: flex;
+    .form-text-2 h2 {
+        width: 50%;
         position: relative;
-        margin-left: 180px;
+        display: block;
+        padding: 30px 20%;
+        margin-right: 500px;
+        margin-left: -50px;
+    }
+
+    footer {
+        width: 50%;
+        display: flex;
+        
+        margin-left: 190px;
     }
 
 
